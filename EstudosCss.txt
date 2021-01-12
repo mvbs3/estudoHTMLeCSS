@@ -1,0 +1,16 @@
+# = indica um ID
+. = indica uma classe
+
+So pode haver um ID. 
+
+box model: Margin ->border->padding ->content
+
+padding eh um espaçamento
+
+COMANDO MUITO IMPORTANTE:
+se vc tem dois elementos com a mesma classe ex:
+<p class="batata">teste<\p>
+<p class="batata">teste2<\p>
+
+usar o comando .batata:nth-child(1):
+eu acesso apenas o primeiro batat, se eu colocar o 2, eu acesso o segundo batata
